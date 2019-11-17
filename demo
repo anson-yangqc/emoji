@@ -6,9 +6,10 @@
     <style>#edit{height:500px;width:500px;border:1px solid red;}</style>
 </head>
 <body>
+    <p>在input指定位置添加发送的内容</p>
     <div id="edit" contenteditable></div>
     <input type="text" id="emojiInput">
-    <button id="sendEmoji">发送表情</button>
+    <button id="sendEmoji">发送</button>
 
     <script>
         var sendEmoji = document.getElementById('sendEmoji')
